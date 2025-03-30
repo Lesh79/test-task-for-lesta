@@ -22,5 +22,5 @@ jobs:
           pip install pytest
       - name: Test with pytest
         run: |
-          pytest test-task-for-lesta/tests.py
+          pytest tests.py
 
